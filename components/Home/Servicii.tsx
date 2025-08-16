@@ -25,11 +25,11 @@ function Servicii() {
                 <Card className="border-border hover:shadow-xl transition duration-300">
                   <CardBody className="p-8 bg-white">
                     <div className="flex mb-4">
-                      <h1 className="font-bold text-2xl">
+                      <h1 className="text-black font-bold text-2xl">
                         {testimonial.title}
                       </h1>
                     </div>
-                    <blockquote className="text-foreground mb-6 text-lg leading-relaxed">
+                    <blockquote className="text-gray-900 mb-6 text-lg leading-relaxed">
                       {testimonial.quote}
                     </blockquote>
                   </CardBody>

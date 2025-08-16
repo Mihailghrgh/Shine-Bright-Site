@@ -21,7 +21,7 @@ function Newsletter() {
 
   return (
     <div className="my-20 bg-white" id="newsletter">
-      <div className="relative max-w-5xl mx-auto">
+      <div className="relative max-w-5xl mx-auto bg-white">
         {/* Background decoration */}
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-indigo-600/10 rounded-3xl blur-3xl"></div>
         <Card className="relative bg-white border-0 shadow-2xl rounded-3xl overflow-hidden">
@@ -82,7 +82,7 @@ function Newsletter() {
                     className="w-full px-6 py-4 text-gray-900 placeholder-gray-500 focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-500/20 transition-all duration-300"
                   />
                 </div>
-                <button className="w-full px-6 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center justify-center">
+                <button className="w-full px-6 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center justify-center hover:cursor-pointer">
                   Trimite mail
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </button>

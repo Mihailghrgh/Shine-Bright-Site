@@ -12,7 +12,7 @@ function HomeTitle() {
               Soluția!
             </span>
           </h1>
-          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-900 mb-8 max-w-2xl mx-auto leading-relaxed">
             Folosind serviciile noastre noi îți vom oferii cel profesional
             serviciu de curățare pe care îl poți primii. Apelează acum sau
             trimite-ne un email apăsând butonul de mai jo!
