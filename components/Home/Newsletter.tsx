@@ -20,7 +20,7 @@ function Newsletter() {
   }, [value]);
 
   return (
-    <div className="my-20 bg-white" id="newsletter">
+    <div className="py-20 bg-white" id="newsletter">
       <div className="relative max-w-5xl mx-auto bg-white">
         <Card className="relative bg-slate-50 border-0 shadow-2xl rounded-3xl overflow-hidden">
           <CardBody className="relative p-6 sm:p-8 md:p-12">
