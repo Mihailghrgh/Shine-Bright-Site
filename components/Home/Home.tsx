@@ -14,7 +14,7 @@ import Footer from "./Footer";
 const Home = () => {
   return (
     <>
-      <Navbar isBordered isBlurred>
+      <Navbar isBordered className="bg-transparent">
         <NavbarContent justify="center">
           <NavbarItem>
             <motion.h1

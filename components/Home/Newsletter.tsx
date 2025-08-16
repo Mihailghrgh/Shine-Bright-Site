@@ -23,7 +23,6 @@ function Newsletter() {
     <div className="my-20 bg-white" id="newsletter">
       <div className="relative max-w-5xl mx-auto bg-white">
         {/* Background decoration */}
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-indigo-600/10 rounded-3xl blur-3xl"></div>
         <Card className="relative bg-white border-0 shadow-2xl rounded-3xl overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-slate-50 to-blue-50"></div>
           <CardBody className="relative p-6 sm:p-8 md:p-12">
