@@ -19,6 +19,7 @@ const Home = () => {
       setWindowWidth(window.innerWidth);
     };
 
+    handleResize()
     window.addEventListener("resize", handleResize);
 
     return () => window.removeEventListener("resize", handleResize);
@@ -27,7 +28,9 @@ const Home = () => {
     <div>
       <Navbar isBordered isBlurred>
         <NavbarBrand>
-          <LogoSVG percentage={window.innerWidth > 764 ? "8" : "25"} />
+          {windowWidth !== null && (
+            <LogoSVG percentage={windowWidth > 764 ? "8" : "25"} />
+          )}
           <motion.h1
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
