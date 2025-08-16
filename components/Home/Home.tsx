@@ -13,9 +13,9 @@ import Newsletter from "./Newsletter";
 import Footer from "./Footer";
 const Home = () => {
   return (
-    <>
+    <div className="bg-white">
       <Navbar isBordered className="bg-white/40 backdrop-blur-md">
-        <NavbarContent className="bg-white" justify="center">
+        <NavbarContent justify="center">
           <NavbarItem>
             <motion.h1
               initial={{ opacity: 0, x: 50 }}
@@ -35,7 +35,7 @@ const Home = () => {
             </motion.p>
           </NavbarItem>
         </NavbarContent>
-        <NavbarContent className="bg-white" justify="end">
+        <NavbarContent justify="end">
           {navbarlinks.map((link) => {
             return (
               <NavbarItem>
@@ -61,7 +61,7 @@ const Home = () => {
       <ClientCarousel />
       <Newsletter />
       <Footer />
-    </>
+    </div>
   );
 };
 export default Home;
