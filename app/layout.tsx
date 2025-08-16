@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning lang="en">
+    <html suppressHydrationWarning lang="en" className="scroll-smooth">
       <head />
       <body className="min-h-screen text-foreground bg-background font-sans antialiased">
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
