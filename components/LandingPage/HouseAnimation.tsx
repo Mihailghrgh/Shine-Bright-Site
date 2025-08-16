@@ -41,7 +41,7 @@ function AnimatedCleaningSupplies() {
               variant="solid"
               className="bg-white text-blue-500 px-8 py-6 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
             >
-              Enter Site{" "}
+              Intră pe site{" "}
               <motion.span
                 className="ml-2"
                 animate={{ x: [0, 5, 0] }}
