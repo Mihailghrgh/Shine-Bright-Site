@@ -12,7 +12,7 @@ import ClientCarousel from "./Clienti";
 import Newsletter from "./Newsletter";
 import Footer from "./Footer";
 const Home = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowWidth, setWindowWidth] = useState(0);
 
   useEffect(() => {
     const handleResize = () => {
