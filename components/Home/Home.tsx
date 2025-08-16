@@ -1,15 +1,6 @@
 "use client";
 
-import {
-  Navbar,
-  NavbarBrand,
-  NavbarContent,
-  NavbarItem,
-  NavbarMenuToggle,
-  NavbarMenu,
-  NavbarMenuItem,
-} from "@heroui/navbar";
-import { Logo } from "../icons";
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from "@heroui/navbar";
 import LogoSVG from "@/helpers/LogoSVG";
 import { Link } from "@heroui/link";
 import { navbarlinks } from "@/helpers/NavBarLinks";
@@ -71,8 +62,8 @@ const Home = () => {
       <HomeTitle />
       <Servicii />
       <ClientCarousel />
-      <Newsletter/>
-      <Footer/>
+      <Newsletter />
+      <Footer />
     </div>
   );
 };
