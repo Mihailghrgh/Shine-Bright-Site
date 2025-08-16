@@ -26,7 +26,7 @@ const Home = () => {
   }, []);
   return (
     <div>
-      <Navbar isBordered isBlurred>
+      <Navbar isBordered isBlurred className="bg-white">
         <NavbarBrand>
           {windowWidth !== null && (
             <LogoSVG percentage={windowWidth > 764 ? "8" : "25"} />

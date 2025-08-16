@@ -8,7 +8,7 @@ function Servicii() {
   return (
     <section className="py-20 px-4 bg-slate-50" id="services">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center text-foreground mb-16">
+        <h2 className="text-4xl font-bold text-black text-center text-foreground mb-16">
           Ce servicii îți{" "}
           <span className="bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-600 bg-clip-text text-transparent">
             oferim?
@@ -22,8 +22,8 @@ function Servicii() {
             >
               {/* Text Content */}
               <div className="flex-1">
-                <Card className="bg-background border-border hover:shadow-xl transition duration-300">
-                  <CardBody className="p-8 ">
+                <Card className="border-border hover:shadow-xl transition duration-300">
+                  <CardBody className="p-8 bg-white">
                     <div className="flex mb-4">
                       <h1 className="font-bold text-2xl">
                         {testimonial.title}

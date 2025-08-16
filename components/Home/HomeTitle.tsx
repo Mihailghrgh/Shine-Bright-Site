@@ -2,11 +2,11 @@ import { Button } from "@heroui/button";
 import { Link } from "@heroui/link";
 function HomeTitle() {
   return (
-    <div className="min-h-screen bg-background" id="home">
+    <div className="min-h-screen bg-white" id="home">
       {/* Hero Section */}
       <section className="py-20 px-4 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
+          <h1 className="text-5xl md:text-6xl font-bold text-black mb-6 leading-tight">
             Transformați business-ul, noi îți oferim{" "}
             <span className="bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-600 bg-clip-text text-transparent">
               Soluția!
