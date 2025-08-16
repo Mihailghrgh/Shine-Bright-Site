@@ -22,9 +22,7 @@ function Newsletter() {
   return (
     <div className="my-20 bg-white" id="newsletter">
       <div className="relative max-w-5xl mx-auto bg-white">
-        {/* Background decoration */}
-        <Card className="relative bg-white border-0 shadow-2xl rounded-3xl overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-slate-50 to-blue-50"></div>
+        <Card className="relative bg-slate-50 border-0 shadow-2xl rounded-3xl overflow-hidden">
           <CardBody className="relative p-6 sm:p-8 md:p-12">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
               <div className="text-center md:text-left">
