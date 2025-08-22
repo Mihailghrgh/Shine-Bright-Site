@@ -10,10 +10,10 @@ function Footer() {
           <p className="tracking-widest text-3xl">SHINE BRIGHT</p>
         </div>
 
-        <div className="flex space-x-6 pt-4 text-white">
+        <div className="flex items-center flex-col md:flex-row space-x-6 pt-4 text-white">
           <p className="hover:text-slate-50 transition-colors">0735843957</p>
           <p className="hover:text-slate-50 transition-colors">
-            dacon@gmail.com
+            daconshinebright@gmail.com
           </p>
           <p className="hover:text-slate-50 transition-colors">
             București, Sector 6
