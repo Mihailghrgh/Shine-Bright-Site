@@ -63,7 +63,7 @@ function Newsletter() {
                 Fie că ești un locatar de bloc sau o companie care are nevoie de
                 servicii de curătare, echipa noastră poate să te ajute!
               </p>
-              <div className="flex flex-row items-center justify-between sm:items-center text-left sm:space-x-4 space-y-2 sm:space-y-0 text-sm text-gray-500">
+              <div className="flex flex-row items-center justify-normal space-x-1 md:text-left text-sm text-gray-500">
                 <div className="flex items-center">
                   <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
                   Servicii Rapide
