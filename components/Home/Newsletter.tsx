@@ -23,8 +23,8 @@ function Newsletter() {
     if (value.length < 1) {
       return null;
     }
-    if (!value.match(/^[a-zA-Z0-9 ./&^!?]{10,300}$/)) {
-      return "Mesajul trebuie sa aiba minim 10 caractere sau maxim 100";
+    if (!value.match(/^[a-zA-Z0-9 ./&^!?\n,]{10,10000}$/)) {
+      return "Mesajul trebuie sa aiba minim 10 caractere sau maxim 1000";
     }
 
     return null;
@@ -38,9 +38,9 @@ function Newsletter() {
 
     console.log(data);
 
-    if(data.status === 200){
-      setEmail('')
-      setMessage('')
+    if (data.status === 200) {
+      setEmail("");
+      setMessage("");
     }
   };
 
